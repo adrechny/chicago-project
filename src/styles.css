@@ -38,12 +38,20 @@ body {
   padding: 30px;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .card-footer {
   padding: 10px;
 }
 
 .img-card {
-  max-width: 50%;
+  max-width: 100%;
+}
+
+.map {
+  max-width: 100%;
 }
 
 .btn {
@@ -223,5 +231,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .map {
+    aspect-ratio: 16 / 9;
   }
 }
